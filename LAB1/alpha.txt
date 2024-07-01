@@ -1,0 +1,16 @@
+def minimax(depth,node Index,maximizing player,valuues,alpha,beta):
+    if depth==3:
+        return values[node Index]
+    if maximizing player:
+        best=MIN
+        for i in range(0,2)
+        val=minimax(depth+1,node Index*2+1,Flase,value,alpha,beta)
+        best=max(best,val)
+        alpha=max(alpha,best)
+        if beta<=alpha:
+            break
+            return best
+        else:
+            best=max
+            for i in range(0,2):
+                hello cool  arnil git commit -m "cool arnil cool first message"
